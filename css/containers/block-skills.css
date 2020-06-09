@@ -1,0 +1,39 @@
+.block-skills {
+    width: 100vw;
+    height: 100vh;
+    background-color: #EDF2F4;
+    border-bottom: 1px solid var(--preto);
+}
+.txt-skills {
+    font-size: 1.2rem;
+    color: var(--vermelho);
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px 0;
+}
+.skills-wraplist {
+    display: flex;
+    flex-direction: column;
+}
+
+.skills-wraplist > .item-list {
+    display: block;
+    margin: 0 auto;
+    font-size: 5rem;
+    padding: 10px 0;
+    color: var(--preto);
+
+}
+
+.skills-wraplist > .item-list:hover {
+    color: var(--vermelho);
+}
+
+.softskill-item-list {
+    display: block;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    padding: 10px 0;
+    color: var(--preto);
+}

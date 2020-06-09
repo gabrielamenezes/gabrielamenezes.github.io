@@ -1,0 +1,10 @@
+
+.main-header {
+    display: flex;
+    background-color: #2b2d42;
+    height: 80px;
+    justify-content: left;
+    align-items: center;
+    border-bottom:1px solid grey;
+
+}

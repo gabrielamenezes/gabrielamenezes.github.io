@@ -1,0 +1,10 @@
+.home-btn {
+    border: 1px solid #2b2d42;
+    text-transform: uppercase;
+    padding: 15px;
+    width: 40vw;
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    cursor: pointer;
+}

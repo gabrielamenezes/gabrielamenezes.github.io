@@ -1,0 +1,36 @@
+.block-sobre {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    height: 125vh;
+    background-color: #EDF2F4;
+    border-bottom: 1px solid #2b2d42;
+}
+.title {
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    color: #2b2d42;
+    padding: 40px 0;
+}
+.dev-pic {
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.paragraph {
+    text-align: justify;
+    font-size: 1em;
+    margin-top: 20px;
+
+    line-height: 1.5rem;
+    padding: 0 15px;
+}
+
+.link-sobre {
+    text-transform: uppercase;
+    color: #d90429;
+    font-style: italic;
+}
