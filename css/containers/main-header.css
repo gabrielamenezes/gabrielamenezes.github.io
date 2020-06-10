@@ -1,10 +1,11 @@
 
 .main-header {
+    width: 100%;
     display: flex;
-    background-color: #2b2d42;
-    height: 80px;
-    justify-content: left;
+    background-color: var(--vermelho);
+    padding: 0 1rem;
+    height: 50px;
     align-items: center;
-    border-bottom:1px solid grey;
+    box-shadow: 0px 2px 5px #727272;
 
 }

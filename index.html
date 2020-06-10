@@ -5,29 +5,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gabriela Menezes</title>
     <link rel="stylesheet" href="css/generic/reset.css">
-    <link rel="stylesheet" href="css/generic/root.css">
+    <link rel="stylesheet" href="css/settings/root.css">
     <link rel="stylesheet" href="css/containers/main-header.css">
+    <link rel="stylesheet" href="css/containers/menu.css">
     <link rel="stylesheet" href="css/containers/aside-block.css">
     <link rel="stylesheet" href="css/containers/block-home.css">
     <link rel="stylesheet" href="css/containers/block-sobre.css">
     <link rel="stylesheet" href="css/containers/block-skills.css">
     <link rel="stylesheet" href="css/containers/block-contact.css">
     <link rel="stylesheet" href="css/components/home-btn.css">
+    <link rel="stylesheet" href="css/components/icon-menu.css">
     <script src="https://kit.fontawesome.com/285bd2b860.js" crossorigin="anonymous"></script>
 </head>
 <body id="page-top">
-    <header class="main-header">
-        <nav class="menu-burguer">
-            <!-- menu burguer -->
-        </nav>
-    </header>
+    <div class="container">
+        <header class="main-header">
+            <div class="icon-menu">
+                <svg width="21.999999999999996" height="21.999999999999996" xmlns="http://www.w3.org/2000/svg">
+                    <g>
+                        <line stroke="#000" class="firstLine" y2="4.146656" x2="25.477124" y1="4.146656" x1="-1.973854"
+                            stroke-width="3.5" />
+                        <line stroke="#000" class="secondLine" y2="11.151682" x2="25.607844" y1="11.020963" x1="-2.104574"
+                            stroke-width="3.5" />
+                        <line stroke="#000" class="thirdLine" y2="17.804165" x2="24.852663" y1="17.673446" x1="-1.683284"
+                            stroke-width="3.5" />
+                    </g>
+                </svg>
+            </div>
+        </header> <!-- </header> fim do header -->
+        <div class="menu">
+            <nav class="navigation-menu">
+                <ul class="list-nav">
+                    <li class="item-nav">
+                        <a class="link-nav" href="#">
+                            icone
+                            Home
+                        </a>    
+                    </li>
+                    <li class="item-nav">
+                        <a class="link-nav" href="#">
+                            icone
+                            Sobre
+                        </a>
+                    </li>
+                    <li class="item-nav">
+                        <a class="link-nav" href="#">
+                            icone
+                            Skills
+                        </a>
+                    </li>
+                    <li class="item-nav">
+                        <a class="link-nav" href="#">
+                            icone
+                            Contato
+                        </a>
+                    </li>
+                </ul>
+            </nav><!-- Fim nav -->
+        </div><!-- Fim menu -->
 
-    <section class="block-home">
+    <section class="block-home" id="home">
         <h1 class="txt-name txt">gabriela</h1>
         <h1 class="txt-surname txt">menezes</h1>
         <h2 class="txt-info">belo horizonte, mg</h2>
-        <h2 class="txt-info txt-prof">Desenvolvedora Web</h2>
-        <button class="home-btn">SOBRE MIM &#8594;</button>
+        <h2 class="txt-info txt-prof">Frontend Developer</h2>
+        <button class="home-btn"><a  class="btn-link-home" href="#sobre">SOBRE MIM &#8594;</a></button>
     </section>
 
     <section class="block-sobre" id="sobre">
@@ -35,12 +77,11 @@
         <figure class="figure">
             <img class="dev-pic" src="img/authour.png" alt="Foto da desenvolvedora">
         </figure>
-        <p class="paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quos harum libero recusandae aspernatur fugiat dolores facere mollitia eaque ratione reiciendis, sapiente enim suscipit! Libero quidem voluptas rerum quisquam esse quod.
-        Vitae perspiciatis ducimus numquam quis doloribus repellat labore fugiat quod quisquam excepturi? Consectetur, incidunt dolor odit vel nisi provident nihil obcaecati illo ex temporibus omnis vitae quibusdam corrupti nobis blanditiis.
-        Voluptas eum fuga numquam quae molestiae veniam, nobis sit eligendi praesentium temporibus Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fuga ea similique voluptatum iure provident facere sit cumque, exercitationem</p>
+        <p class="paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quae at, accusamus hic quam totam expedita eos animi alias voluptatum odit ducimus praesentium aliquid, sapiente cum quaerat assumenda omnis esse asperiores?
+        Beatae, impedit hic pariatur sed perspiciatis alias consectetur quas aspernatur! Unde fuga voluptate ipsum dolorum tempora ea libero cupiditate natus ipsa aliquam, omnis dignissimos eum vero non</p>
     </section>
 
-    <section class="block-skills">
+    <section class="block-skills" id="skills">
         <h2 class=" title">Skills</h2>
         <div class="hard-skills-block">
             <h2 class="txt-skills">Hard Skills</h2>
@@ -75,11 +116,11 @@
         </div>
     </section>
 
-    <section class="block-contact">
+    <section class="block-contact" id="contato">
         <h2 class="title">CONTATO</h2>
         <div class="social-icons" title="LINKEDIN">
-            <a href="https://www.linkedin.com/in/gabriela-menezes-andrade-mendes-02511819a">
-                <i class="fab fa-linkedin"></i>
+            <a href="https://www.linkedin.com/in/gabriela-menezes-02511819a">
+                <i class="fab fa-linkedin-in"></i>
             </a>
             <a href="https://www.github.com/gabrielamenezes" title="GITHUB">
                 <i class="fab fa-github"></i>
@@ -87,10 +128,8 @@
             <a href="gabimenezess10@gmail.com" title="E-MAIL">
                 <i class="fas fa-envelope-square"></i>
             </a>
-            <a href="#">
-                <i class="fab fa-whatsapp" title="WHATSAPP"></i>
-            </a>
         </div>
     </section>
+    <script src="js/app.js"></script>
 </body>
 </html>

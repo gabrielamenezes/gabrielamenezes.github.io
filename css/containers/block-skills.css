@@ -20,7 +20,7 @@
 .skills-wraplist > .item-list {
     display: block;
     margin: 0 auto;
-    font-size: 5rem;
+    font-size: 4rem;
     padding: 10px 0;
     color: var(--preto);
 
@@ -31,9 +31,10 @@
 }
 
 .softskill-item-list {
+    text-align: center;
     display: block;
     margin: 0 auto;
-    font-size: 1.2rem;
-    padding: 10px 0;
+    font-size: 1.1rem;
+    padding: 5px 0;
     color: var(--preto);
 }

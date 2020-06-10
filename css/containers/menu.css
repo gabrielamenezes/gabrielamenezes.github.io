@@ -1,0 +1,25 @@
+.menu {
+    color: var(--branco);
+    width: 65%;
+    height: 100vh;
+    background-color: var(--preto);
+    position: absolute;
+    left: -65%;
+}
+
+.link-nav {
+    color: var(--branco);
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1rem;
+    display: block;
+}
+
+.list-nav {
+    padding-top: 1.5rem;
+}
+
+.menu_move {
+    left: 0;
+}
+
