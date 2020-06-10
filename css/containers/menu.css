@@ -19,6 +19,10 @@
     padding-top: 1.5rem;
 }
 
+.item-nav:hover {
+    text-decoration: underline;
+}
+
 .menu_move {
     left: 0;
 }
