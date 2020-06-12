@@ -1,5 +1,5 @@
 .container {
-    overflow: hidden; /* tira scroll lateral */
+    overflow: hidden; /* tira scroll lateral*/
 }
 
 .block-home {
@@ -27,7 +27,9 @@
 .content {
     position: relative;
     left: 0;
+    transition: left 500ms ease-out;
 }
+
 
 /* classe modificadora no JS*/
 .content_move {

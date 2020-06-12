@@ -5,10 +5,11 @@
     background-color: var(--branco);
     position: absolute;
     left: -65%;
+    transition: left 500ms ease-out;
 }
 
 .link-nav {
-    color: var(--laranja);
+    color: var(--preto);
     text-decoration: none;
     text-transform: uppercase;
     padding: 1rem;
@@ -18,11 +19,19 @@
 .list-nav {
     padding-top: 1.5rem;
 }
-
+.item-nav {
+    transition: background-color 300ms ease-in;
+}
 .item-nav:hover {
     text-decoration: underline;
+    color: var(--brancobg);
+    background-color: var(--rosa);
 }
 
+.link-nav:hover {
+    color: var(--brancobg);
+
+}
 .menu_move {
     left: 0;
 }
