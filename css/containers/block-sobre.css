@@ -3,16 +3,17 @@
     display: flex;
     flex-direction: column;
     height: 125vh;
-    background-color: #EDF2F4;
-    border-bottom: 1px solid #2b2d42;
+    background-color: var(--brancobg);
+    border-bottom: 1px solid var(--cinza);
 }
 .title {
     font-size: 3rem;
     text-transform: uppercase;
     font-weight: bold;
     text-align: center;
-    color: #2b2d42;
+    color: var(--rosa);
     padding: 40px 0;
+    text-shadow: 1px 1px 2px var(--cinza);
 }
 .dev-pic {
     display: block;
@@ -24,13 +25,13 @@
     text-align: justify;
     font-size: 1em;
     margin-top: 20px;
-
+    color: var(--preto);
     line-height: 1.5rem;
     padding: 0 15px;
 }
 
 .link-sobre {
     text-transform: uppercase;
-    color: #d90429;
+    color: var(--roxo);
     font-style: italic;
 }

@@ -1,5 +1,5 @@
 .home-btn {
-    border: 1px solid var(--preto);
+    border: 1px solid var(--rosa);
     text-transform: uppercase;
     padding: 15px;
     width: 160px;
@@ -7,13 +7,14 @@
     margin: 0 auto;
     margin-top: 10px;
     cursor: pointer;
-    box-shadow: 1px 1px 2px var(--preto);
+    box-shadow: 1px 0px 2px var(--cinza);
 }
 
 .btn-link-home {
     text-decoration: none;
-    color: var(--preto);
+    color: var(--rosa);
     padding: 15px 6px;
+    font-weight: bold;
     box-sizing: border-box;
 }
 

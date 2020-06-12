@@ -4,11 +4,31 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-color:  #EDF2F4;
-    border-bottom: 1px solid #2b2d42;
+    background:  url(../../img/background\ -\ Copia.jpg);
+    border-bottom: 1px solid var(--cinza);
 
 }
 
+.box-home {
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    text-align: center;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.308);
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.5);
+}
+
+.content {
+    position: relative;
+    left: 0;
+}
+
+/* classe modificadora no JS*/
+.content_move {
+    left: 65%;
+}
 .txt {
     font-weight: bold;
     text-align: center;
@@ -16,23 +36,28 @@
     text-transform: uppercase;
 }
 
-.block-home > .txt-name {
-    color: #2b2d42;
+.txt-name {
+    color: var(--rosa);
+    text-shadow: 1px 1px 3px var(--escuro);
 }
 
-.block-home > .txt-surname {
-    color: #d90429;
+.txt-surname {
+    color: var(--cinza);
+    text-shadow: 1px 1px 1px var(--escuro);
 }
 
-.block-home > .txt-info {
-    color:  #d90429;
+.txt-info {
+    display: block;
+    margin: 0 auto;
+    color: var(--cinza);
     text-transform: uppercase;
     font-size: 0.8em;
     text-align: center;
     font-weight: 500;
+    text-shadow: 2px 2px 2px var();
 }
 
-.block-home > .txt-prof {
+.txt-prof {
     font-weight: bold;
     margin-top: 10px;
 }

@@ -1,8 +1,8 @@
 .block-contact {
     width: 100vw;
     height: 100vh;
-    background-color: #EDF2F4;
-    border-bottom: 1px solid var(--preto);
+    background-color: var(--brancobg);
+    border-bottom: 1px solid var(--cinza);
 }
 
 .block-contact > .social-icons {
@@ -13,12 +13,12 @@
 .block-contact > .social-icons > a {
     display: block;
     margin: 0 auto;
-    color: var(--preto);
+    color: var(--cinza);
     font-size: 4rem;
     padding: 10px 0;
 }
 
 .block-contact > .social-icons > a:hover {
-    color: var(--vermelho);
+    color: var(--rosa);
 
 }

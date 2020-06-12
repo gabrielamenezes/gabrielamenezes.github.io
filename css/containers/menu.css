@@ -1,14 +1,14 @@
 .menu {
-    color: var(--branco);
+    color: var(--cinza);
     width: 65%;
     height: 100vh;
-    background-color: var(--preto);
+    background-color: var(--branco);
     position: absolute;
     left: -65%;
 }
 
 .link-nav {
-    color: var(--branco);
+    color: var(--laranja);
     text-decoration: none;
     text-transform: uppercase;
     padding: 1rem;

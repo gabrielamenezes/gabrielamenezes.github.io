@@ -1,9 +1,10 @@
 // menu hamburguer
 const $menuBtn = document.querySelector('.icon-menu');
 const $menuList = document.querySelector('.menu');
-const conteudo = document.querySelector('#home')
+const $content = document.querySelector('.content');
 
 
 $menuBtn.addEventListener('click', function() {
-    $menuList.classList.toggle('menu_move')
+    $menuList.classList.toggle('menu_move');
+    $content.classList.toggle('content_move')
 })

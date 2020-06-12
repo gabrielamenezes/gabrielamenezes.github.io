@@ -1,12 +1,12 @@
 .block-skills {
     width: 100vw;
     height: 110vh;
-    background-color: #EDF2F4;
-    border-bottom: 1px solid var(--preto);
+    background-color: var(--branco);
+    border-bottom: 1px solid var(--cinza);
 }
 .txt-skills {
     font-size: 1.2rem;
-    color: var(--vermelho);
+    color: var(--roxo);
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
@@ -22,12 +22,12 @@
     margin: 0 auto;
     font-size: 4rem;
     padding: 10px 0;
-    color: var(--preto);
+    color: var(--cinza);
 
 }
 
 .skills-wraplist > .item-list:hover {
-    color: var(--vermelho);
+    color: var(--rosa);
 }
 
 .softskill-item-list {

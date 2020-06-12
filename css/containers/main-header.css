@@ -2,7 +2,7 @@
 .main-header {
     width: 100%;
     display: flex;
-    background-color: var(--vermelho);
+    background-color: var(--laranja);
     padding: 0 1rem;
     height: 50px;
     align-items: center;
