@@ -1,6 +1,7 @@
 .container {
-    overflow: hidden;
+    overflow: hidden; /* tira scroll lateral */
 }
+
 .block-home {
     width: 100vw;
     height: 100vh;
