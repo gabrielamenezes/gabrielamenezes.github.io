@@ -1,3 +1,6 @@
+.container {
+    overflow: hidden;
+}
 .block-home {
     width: 100vw;
     height: 100vh;
