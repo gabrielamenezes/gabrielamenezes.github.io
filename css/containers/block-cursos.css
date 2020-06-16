@@ -1,7 +1,7 @@
 .block-cursos {
     width: 100vw;
     height: 110vh;
-    background-color: var(--branco);
+    background-color: var(--brancobg);
     border-bottom: 1px solid var(--cinza);
 }
 .courses-wraplist {

@@ -21,6 +21,7 @@
     margin-top: 15px;
 }
 
+
 .paragraph {
     text-align: center;
     font-size: 1em;
@@ -34,8 +35,10 @@
     font-weight: bold;
 }
 
+
 .link-sobre {
     text-transform: uppercase;
     color: var(--roxo);
     font-style: italic;
 }
+

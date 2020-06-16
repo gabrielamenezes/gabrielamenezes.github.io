@@ -8,14 +8,15 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background:  url(../../img/background\ -\ Copia.jpg);
+    background:  url(../../img/background-xxlarge.jpg);
+    background-size: 990px;
     border-bottom: 1px solid var(--cinza);
-    
+    background-repeat:no-repeat;
 
 }
 
 .box-home {
-    max-width: 600px;
+    max-width: 2000px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;

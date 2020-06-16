@@ -1,0 +1,41 @@
+@media (min-width: 991px) {
+    #page-top .container > .main-header {
+        display: none;
+    }
+    .block-home {
+        background-size: cover !important;
+    }
+
+    .icon-menu {
+        display: none;
+    }
+    #page-top .block-home > .aside-block {
+        width: 20%;
+        height: 100vh;
+        background-color: var(--branco);
+        position: fixed;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        border-right: 1px solid var(--cinza);
+        text-align: center;
+        float: left;
+    }
+    .mypic {
+        border-radius: 50%;
+        background-color: #a9b8b6;
+    }
+    
+    .mypic:hover {
+        background-color: var(--rosa);
+    }
+
+    .navigation-menu > .list-nav > .item-nav > .link-nav:hover {
+        font-weight: bold;
+    }
+
+    .figure {
+        display: none;
+    }
+    
+    }
