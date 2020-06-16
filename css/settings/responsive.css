@@ -2,15 +2,15 @@
     #page-top .container > .main-header {
         display: none;
     }
-    .block-home {
-        background-size: cover !important;
+    #page-top > .container .block-home {
+        background-size: cover;
     }
 
     .icon-menu {
         display: none;
     }
     #page-top .block-home > .aside-block {
-        width: 20%;
+        width: 18%;
         height: 100vh;
         background-color: var(--branco);
         position: fixed;
@@ -21,8 +21,13 @@
         text-align: center;
         float: left;
     }
+    .img {
+        padding: 0.5rem;
+    }
     .mypic {
         border-radius: 50%;
+        width: 150px;
+        padding: 0.5rem;
         background-color: #a9b8b6;
     }
     
