@@ -30,11 +30,14 @@
     left: 0;
     transition: left 500ms ease-out;
 }
-
-
-/* classe modificadora no JS*/
-.content_move {
-    left: 65%;
+/* classe modificadora que aciona transparencia no conteúdo quando clica no menu */
+.__move .content::before {
+    content: '';
+    background-color: #ffffffd3;
+    width: 100vw;
+    height: 100vh;
+    display: block;
+    position: absolute;
 }
 .txt {
     font-weight: bold;

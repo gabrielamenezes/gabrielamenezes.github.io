@@ -32,7 +32,10 @@
     color: var(--brancobg);
 
 }
-.menu_move {
+.__move .menu {
     left: 0;
 }
 
+.__move .content {
+    left: 65%;
+}
