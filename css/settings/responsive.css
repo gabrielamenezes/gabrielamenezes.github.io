@@ -45,4 +45,22 @@
         display: block;
         float: right;
     }
+
+    /* SOBRE CHANGES HERE */
+    .hard-skills-block .skills-wraplist {
+        justify-content: center;
+        flex-direction: row;
+    }
+    .hard-skills-block .skills-wraplist > .item-list {
+        font-size: 5rem;
+        padding: 0;
+    } 
+    .hard-skills-block .skills-wraplist > .item-list > .fab {
+        color: var(--cinza);
+    }
+
+    .hard-skills-block .skills-wraplist > .item-list > .fab:hover {
+        color: var(--rosa);
+    }
+    
     }
