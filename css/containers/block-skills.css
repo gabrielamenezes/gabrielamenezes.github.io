@@ -22,13 +22,22 @@
     margin: 0 auto;
     font-size: 4rem;
     padding: 10px 0;
-    color: var(--cinza);
 
 }
 
-.skills-wraplist > .item-list:hover {
+.fa-css3-alt {
+    color: #4097da;
+}
+.fa-js-square {
+    color: #f7df1e;
+}
+.fa-html5 {
+    color: #f06529;
+}
+
+/*.skills-wraplist > .item-list:hover {
     color: var(--rosa);
-}
+}*/
 
 .softskill-item-list {
     text-align: center;

@@ -1,0 +1,10 @@
+.block-projects {
+    width: 100vw;
+    height: 110vh;
+    background-color: var(--brancobg);
+    border-bottom: 1px solid var(--cinza);
+}
+
+.block-projects > p {
+    text-align: center;
+}
