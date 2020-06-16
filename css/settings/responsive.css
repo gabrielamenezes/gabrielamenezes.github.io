@@ -5,12 +5,11 @@
     #page-top > .container .block-home {
         background-size: cover;
     }
-
     .icon-menu {
         display: none;
     }
-    #page-top .block-home > .aside-block {
-        width: 18%;
+    #page-top .aside-block {
+        width: 20%;
         height: 100vh;
         background-color: var(--branco);
         position: fixed;
@@ -19,7 +18,6 @@
         flex-direction: column;
         border-right: 1px solid var(--cinza);
         text-align: center;
-        float: left;
     }
     .img {
         padding: 0.5rem;
@@ -42,5 +40,9 @@
     .figure {
         display: none;
     }
-    
+    .container_size {
+        max-width: 80%;
+        display: block;
+        float: right;
+    }
     }
