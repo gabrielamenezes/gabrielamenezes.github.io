@@ -78,8 +78,14 @@
 
     /* CONTATC RESPONSIVE CHANGES */
     .block-contact > .social-icons {
-        flex-direction: row;
+        flex-direction: row !important;
+        justify-content: center;
     } 
+
+    .block-contact > .social-icons > .link-contact {
+        margin: 0 ;
+        padding: 10px;
+    }
     /* end of contact responsive changes */
     
     }
