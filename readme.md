@@ -1,1 +1,1 @@
-<h1>EM CONSTRUÇÃO...<h1> :construction:
+<h1>EM CONSTRUÇÃO...<span>:construction:</span><h1>
