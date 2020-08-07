@@ -6,6 +6,7 @@
     --color-button-text: #ffffff;
     --tile-text-in-primary: #B9971E;
     --color-text-base: #6A6180;
+    --color-second-button: #2edae0;
     font-size: 60%;
 
 }
@@ -28,4 +29,18 @@ body {
     align-items: center;
 }
 
+h1, h2, h3 {
+    font-weight: 700;
+    font-family:'Montserrat';
+}
 
+body, input,
+button, textarea {
+    font: 500 1.6rem Poppins;
+    color: var(--color-text-base);
+}
+
+#container {
+    width: 90vw;
+    max-width: 700px;
+}
