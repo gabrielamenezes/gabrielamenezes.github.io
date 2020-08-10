@@ -54,7 +54,7 @@
     padding: 3rem 0;
 }
 
-#about-me .about-title {
+.title {
     background-color: var(--color-button);
     color: var(--color-text-in-primary);
     padding: 2rem;
@@ -63,14 +63,54 @@
 #about-me .dev-pic  {
     text-align: center;
 }
-#about-me p {
+#about-me .about-me-txt {
     color: var(--body-color);
     font-size: 1.8rem;
     line-height: 2.5rem;
     margin-top: 2rem;
     padding: 0 1.2rem;
 }
+.about-me-txt a {
+    color: var(--color-button);
+}
 
 .about-content-second {
     padding: 3rem 0;
 }
+.about-content-second > h2 {
+    color: var(--color-button);
+}
+.card-container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.card {
+    padding: 3rem;
+    margin: 2rem auto 0;
+    background: linear-gradient(var(--color-text-base), var(--background-color));
+    border-radius: 10px;
+    width: 80%;
+    text-align: center;
+    border: none;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.2);
+}
+.card-icon {
+    width: 4rem;
+    display: block;
+    margin: 0 auto;
+}
+
+.card-content {
+    padding: 2px 16px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 500;
+    margin: 0.8rem;
+}
+
