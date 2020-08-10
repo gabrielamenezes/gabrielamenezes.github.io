@@ -1,11 +1,14 @@
 .logo-container {
     text-align: center;
     margin-bottom: 3.2rem;
+    padding: 3rem 0;
 }
-
+.logo-container h1 {
+    color: var(--color-button);
+}
 .logo-container h2 {
     font-weight: 500;
-    font-size: 3.6rem;
+    font-size: 2.2rem;
     line-height: 4.6rem;
     margin-top: 0.8rem;
 }
@@ -47,3 +50,27 @@
     border: 1px solid var(--color-button-text);
 }
 
+#about-me {
+    padding: 3rem 0;
+}
+
+#about-me .about-title {
+    background-color: var(--color-button);
+    color: var(--color-text-in-primary);
+    padding: 2rem;
+}
+
+#about-me .dev-pic  {
+    text-align: center;
+}
+#about-me p {
+    color: var(--body-color);
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    margin-top: 2rem;
+    padding: 0 1.2rem;
+}
+
+.about-content-second {
+    padding: 3rem 0;
+}
