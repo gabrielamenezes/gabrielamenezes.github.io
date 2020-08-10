@@ -83,6 +83,7 @@
 .card-container {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
 }
 
 
@@ -113,4 +114,30 @@
     font-weight: 500;
     margin: 0.8rem;
 }
+.project-container {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.project-pic {
+    width: 100%;
+}
+.project-detail {
+    margin-top: 2rem;
+}
+.link-block {
+    text-align: center;
+}
+.project-link {
+    display: inline-block;
+    color: #ffffff;
+    background-color: var(--color-button);
+    padding: 2rem;
+    border-radius: 10px;
+}
 
+.project-link:hover {
+    text-decoration: none;
+    color: #000000;
+}
