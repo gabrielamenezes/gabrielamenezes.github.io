@@ -7,6 +7,7 @@
     --tile-text-in-primary: #B9971E;
     --color-text-base: #6A6180;
     --color-second-button: #2edae0;
+    --body-color: #a29f98;
     font-size: 60%;
 
 }
@@ -27,6 +28,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 h1, h2, h3 {
@@ -42,5 +44,6 @@ button, textarea {
 
 #container {
     width: 90vw;
+    height: 100vh;
     max-width: 700px;
 }
