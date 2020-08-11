@@ -25,6 +25,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ## 💪 Como acessar?
 
 1. Digite na aba de endereço: gabrielamenezes.github.io
+<img src=".github/portfolio.gif">
 
 ## Autor
 ---
