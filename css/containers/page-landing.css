@@ -127,10 +127,13 @@
     margin-top: 2rem;
 }
 .link-block {
-    text-align: center;
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+.link-block a {
+    margin: 0.8rem 0;
 }
 .project-link {
     display: inline-block;
@@ -145,11 +148,14 @@
     text-decoration: none;
     color: #ffffff;
 }
-
-.social-list {
+.social-block {
     display: flex;
     flex-direction: column;
+}
+.social-list {
+    display: block;
     margin: 2rem auto;
+    text-align: center;
     list-style: none;
     border: 1px solid #ffffff;
     padding: 3rem;
@@ -195,4 +201,93 @@ footer {
 footer div {
     margin: 0 auto;
     text-align: center;
+}
+
+@media (min-width: 1100px) {
+    #page-landing #container {
+        max-width: 1100px;
+    }
+    #page-landing .grid-container {
+        max-width: 1100px;
+        display: grid; 
+        grid-template-columns: 2fr 2fr; 
+        grid-template-rows: 350px 1fr;
+        grid-template-areas: "gabi image image" 
+        "button button texting"; 
+        column-gap: 87px;
+        row-gap: 86px;
+    }
+
+    .logo-container {
+        grid-area: gabi;
+        text-align: initial;
+        align-self: center; 
+        margin: 0;
+
+    }
+
+
+    .hero-image {
+        grid-area: image;
+        height: 350px;
+    }
+    .buttons-container {
+        grid-area: button;
+        justify-content: flex-start; 
+        margin: 0;
+    }
+
+    .about-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+    }
+
+    .card-container {
+        flex-direction: row;
+    }
+
+    .card {
+        width: 20%;
+        padding: 3rem 0;
+    }
+    .card-content h3 {
+        font-size: 1.2rem;
+    }
+    .project-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .project-pic {
+        width: 50%;
+    }
+    .link-block {
+        justify-content: start;
+    }
+
+    .project-link {
+        width: 23%;
+    }
+
+    .link-block a {
+        margin: 0 1rem;
+    }
+    #contact .social-block {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+    }
+    #contact .social-block a {
+        margin-right: 1.5rem;
+    }
+
+    .social-list {
+        width: 100%;
+    }
+
+    .social-list li {
+        margin-right: 1rem;
+    }
+
+
 }
