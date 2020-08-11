@@ -256,16 +256,17 @@ footer div {
     .project-container {
         flex-direction: row;
         flex-wrap: wrap;
+        justify-content: initial;
+        width: 100%;
+    }
+    .project {
+        width: 50%;
     }
     .project-pic {
-        width: 50%;
+        width: 500px;
     }
     .link-block {
         justify-content: start;
-    }
-
-    .project-link {
-        width: 23%;
     }
 
     .link-block a {
